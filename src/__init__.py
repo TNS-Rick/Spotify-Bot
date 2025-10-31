@@ -1,1 +1,1 @@
-# This file is intentionally left blank.
+# Questo file è intenzionalmente vuoto per rendere il pacchetto importabile.

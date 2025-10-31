@@ -1,9 +1,11 @@
+# Punto di ingresso che registra i command handler di telegram-telegram-bot v13.
 from telegram import Update
 from telegram.ext import Updater, CommandHandler, CallbackContext
 from config import TELEGRAM_TOKEN
 from handlers.commands import song_command, artist_command, playlist_command
 
 def main():
+    # Crea Updater con token e registra handlers per /song /artist /playlist
     updater = Updater(TELEGRAM_TOKEN, use_context=True)
     dispatcher = updater.dispatcher
 

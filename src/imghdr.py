@@ -1,6 +1,4 @@
-# Minimal replacement for stdlib imghdr.what used by some libraries.
-# Detects a few common formats by magic bytes.
-
+# Sostituto minimale di imghdr.what per riconoscere alcune immagini tramite magic bytes.
 def what(file, h=None):
     """Return image type string ('jpeg','png','gif','bmp','webp') or None."""
     if h is None:
